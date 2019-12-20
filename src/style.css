@@ -12,6 +12,23 @@
 
 }
 
+.mag-banner-copy{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+}
+
+.mag-banner-copy .row {
+    height: 100%;
+}
+
+.mag-magic-pay-logo{
+    max-width: 20rem;
+    height: auto;
+    
+}
+
 @media screen and (max-width: 767px){
     .navbar-brand img {
         width: 8.75rem;
@@ -33,5 +50,9 @@
     .navbar-brand {
         margin-right: 6.25rem;
     }
+    .mag-magic-pay-logo{
+        max-width: 100%;
+    }
+
 }
 

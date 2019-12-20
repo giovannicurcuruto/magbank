@@ -29,6 +29,20 @@
     
 }
 
+
+.mag-credit-card{
+    padding-top: 4rem;
+    padding-bottom: 5.6rem;
+}
+
+.mag-text-primary{
+    color: var(--mag-main-color);
+}
+
+.mag-text-secondary{
+    color: var(--mag-secondary-color);
+}
+
 @media screen and (max-width: 767px){
     .navbar-brand img {
         width: 8.75rem;
@@ -52,6 +66,11 @@
     }
     .mag-magic-pay-logo{
         max-width: 100%;
+    }
+
+    .mag-credit-card{
+        padding-top: 7rem;
+        padding-bottom: 9.6875rem;
     }
 
 }

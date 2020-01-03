@@ -29,6 +29,31 @@
     
 }
 
+/* Sem a aula */
+
+.mag-three-cards{
+    height: 42rem ; /* 680px */
+}
+
+.mag-tree-cards-body{
+    height: 28.125rem; /*450px */
+}
+
+.mag-btn-card{
+    height: 14.375rem ;  /*230px    */
+    padding: 5.1875rem; /* 83px   */
+    padding-left: 26.0625rem;
+    /*417-83 = 338 = 20,875 */
+    
+    
+}
+
+.mag-btn-card--greenbtn{
+    /* H: 64 W:278  */
+    height: 4rem;
+    width: 17.375rem;
+}
+
 
 .mag-credit-card{
     padding-top: 4rem;

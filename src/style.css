@@ -12,6 +12,9 @@
 
 }
 
+
+
+
 .mag-banner-copy{
     position: absolute;
     top:0;
@@ -48,11 +51,20 @@
     
 }
 
+
+
 .mag-btn-card--greenbtn{
     /* H: 64 W:278  */
     height: 4rem;
     width: 17.375rem;
 }
+
+.mag-nascemos{
+    height: 1.823125rem;
+    width: 0 auto;
+}
+
+
 
 
 .mag-credit-card{
@@ -67,6 +79,18 @@
 .mag-text-secondary{
     color: var(--mag-secondary-color);
 }
+
+.mag-btn-primary{
+    background-color: var(--mag-secondary-color);
+    color: #fff;
+}
+
+.mag-btn-primary:hover{
+    filter: grayscale(20%);
+    color: #fff;
+
+}
+
 
 @media screen and (max-width: 767px){
     .navbar-brand img {
@@ -84,6 +108,7 @@
         border-radius: .25rem!important;
     }
 }
+
 
 @media screen and (min-width: 768px){
     .navbar-brand {

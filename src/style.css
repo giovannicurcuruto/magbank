@@ -1,6 +1,7 @@
 :root{
     --mag-main-color: #7b34b1;
     --mag-secondary-color: #f05656;
+    --mag-copy-color: #535353;
 }
 
 .mag-bg-primary{
@@ -70,7 +71,18 @@
 .mag-credit-card{
     padding-top: 4rem;
     padding-bottom: 5.6rem;
+    color: var(--mag-copy-color);
 }
+
+.mag-credit-card h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.mag-credit-card i {
+    font-size: 1.875rem;
+}
+
 
 .mag-text-primary{
     color: var(--mag-main-color);
